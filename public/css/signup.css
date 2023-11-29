@@ -1,0 +1,185 @@
+body {
+    /* color: #fff; */
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+.form-control, .form-control:focus, .input-group-addon {
+    border-color: #e1e1e1;
+}
+
+.form-control, .btn {
+    border-radius: 3px;
+}
+.signup-form {
+    width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color:  #e68a19;
+}
+.signup-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form h2 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+}
+.signup-form hr {
+    margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+.signup-form .form-control {
+    min-height: 38px;
+    box-shadow: none !important;
+}
+.signup-form .input-group-addon {
+    max-width: 42px;
+    text-align: center;
+    padding: 10px;
+}
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+.signup-form .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background: #e68a19;
+    border: none;
+    min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+    background: #179b81;
+    outline: none;
+}
+.signup-form a {
+    color: #fff;
+    text-decoration: underline;
+}
+.signup-form a:hover {
+    text-decoration: none;
+}
+.signup-form form a {
+    color: #19aa8d;
+    text-decoration: none;
+}
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+.signup-form .fa {
+    font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+    font-size: 18px;
+}
+.signup-form .fa-check {
+    color: #fff;
+    left: 17px;
+    top: 18px;
+    font-size: 7px;
+    position: absolute;
+}
+.select2-results__option {
+    color: black; /* Change to your desired text color */
+}
+
+.select2 .selection{
+    height:100% !important;
+    border-radius: 0px !important;
+    border-color: #e1e1e1 !important;
+}
+
+.select2-container--default .select2-selection--single{
+    height:100% !important;
+    border-radius: 0px !important;
+    border-color: #e1e1e1 !important;
+}
+
+.select2-selection{
+    height:100% !important;
+}
+
+.select2-selection__arrow{
+    height:100% !important;
+}
+
+.select2-selection__rendered{
+    height:100% !important;
+}
+
+.select2-selection__placeholder{
+    vertical-align: -webkit-baseline-middle;
+    /* vertical-align: middle; */
+
+}
+
+.h-5 {
+    height: 25px !important;
+}
+
+.w-5{
+    width: 25px !important;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.page-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.page-link {
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+

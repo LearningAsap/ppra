@@ -1,0 +1,48 @@
+.power-grid-table td{
+    word-break: break-all;
+    white-space: normal !important;
+}
+
+.btn{
+    color:#fff;
+}
+
+.btn:hover{
+    color:#fff;
+}
+
+/* #mySidenav .active {
+    background-color: rgb(30, 136, 229) !important;
+    border-color: rgb(30, 136, 229) !important;
+} */
+
+.topbar {
+    background-color: #26c6da;
+}
+
+.page-breadcrumb .breadcrumb .breadcrumb-item a {
+    color: #26c6da;
+}
+
+.page-breadcrumb .page-title {
+    color: #26c6da;
+}
+
+.page-item.active .page-link{
+    background-color: #26c6da;
+    border-color: #26c6da;
+    color: #fff!important;
+}
+
+.footer a {
+    color: #26c6da;
+}
+
+.footer a:hover {
+    color: #007e8e;
+}
+
+.form-check-input:checked {
+    background-color: #26c6da;
+    border-color: #26c6da;
+}
